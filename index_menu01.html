@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/_menu01_style.css">
+	<script src="./js/jquery-1.12.4.min.js"></script>
+	<script src="./js/_menu01_function.js"></script>
+	<title>[Clone] TRUE ELW</title>
+</head>
+
+<body>
+	<div id="wrap">
+		<header>
+			<nav>
+				<h1 class="logo"><a href="#"></a></h1>
+				<ul class="gnb">
+					<li>
+						<a href="#" class="gnb-text">지수ELW</a>
+						<span class="gnb-text-line"></span>
+						<ol class="lnb">
+							<li>
+								<a href="#">
+									Top Picks
+								</a>
+							</li>
+							<li><a href="#">만기별 시세표</a></li>
+						</ol>
+					</li>
+					<li>
+						<a href="#" class="gnb-text">주식ELW</a>
+						<span class="gnb-text-line"></span>
+						<ol class="lnb">
+							<li>
+								<a href="#">
+									Top Picks
+								</a>
+								<a href="#" class="sub-text">- ELW Top Picks</a>
+								<a href="#" class="sub-text">- 기초자산 Top Picks</a>
+							</li>
+							<li><a href="#">기초자산별 시세표</a></li>
+							<li><a href="#">예상가 테이블</a></li>
+						</ol>
+					</li>
+					<li>
+						<a href="#" class="gnb-text">투자정보</a>
+						<span class="gnb-text-line"></span>
+
+						<ol class="lnb">
+							<li><a href="#">ELW 현재가</a></li>
+							<li><a href="#">만기종목정보</a></li>
+						</ol>
+					</li>
+					<li>
+						<a href="#" class="gnb-text">투자가이드</a>
+						<span class="gnb-text-line"></span>
+
+						<ol class="lnb">
+							<li>
+								<a href="#">
+									ELW의 이해
+								</a>
+								<a href="#" class="sub-text">- ELW 정의</a>
+								<a href="#" class="sub-text">- ELW 장점</a>
+							</li>
+							<li><a href="#">TRUE ELW 스쿨</a></li>
+							<li>
+								<a href="#">
+									ELW 투자방법
+								</a>
+								<a href="#" class="sub-text">- 거래방법</a>
+								<a href="#" class="sub-text">- 투자자 유의사항</a>
+								<a href="#" class="sub-text">- ELW FAQ</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="#">고객센터</a>
+						<span class="gnb-text-line"></span>
+
+						<ol class="lnb">
+							<li><a href="#">공지사항</a></li>
+							<li><a href="#">공시정보</a></li>
+						</ol>
+					</li>
+				</ul>
+			</nav>
+			<span class="lnb-bg"></span>
+			<span class="lnb-bg2"></span>
+		</header>
+
+		<section>
+			<nav class="top-cat">
+				<div class="top-cat-cont">
+					<p class="cat-1">홈</p>
+					<p class="cat-2">지수ELW</p>
+					<p class="cat-3">Top Picks</p>
+				</div>
+			</nav>
+			<div class="container">
+
+				<h2>Top Picks</h2>
+
+				<div class="tab-mnu">
+					<form action="#" class="select-1">
+						<span></span>
+						<fieldset>
+							<label for="info">기초자산</label>
+							<input id="info" type="text" value="KOSPI200" readonly>
+							<ul class="info-list">
+								<li class="on"><a href="#">KOSPI200</a></li>
+								<li><a href="#">KOSDAQ150</a></li>
+							</ul>
+						</fieldset>
+						<span></span>
+						<fieldset>
+							<label for="site">만기</label>
+							<input id="site" type="text" value="2020.09" readonly>
+							<ul class="site-list">
+								<li class="on"><a href="#">2020.09</a></li>
+								<li><a href="#">2020.10</a></li>
+							</ul>
+						</fieldset>
+					</form>
+					<div class="sum-container-wrap">
+						<div class="info-sum-container-1">
+							<div class="info-sum">
+								<p class="title">KOSPI200</p>
+								<p class="pt1">312.03</p>
+							</div>
+							<div class="info-sum-trans">
+								<span class="down"></span>
+								<p class="pt2">4.40</p>
+								<p class="pt-percent">-1.39%</p>
+							</div>
+						</div>
+						<div class="info-sum-container-2">
+							<div class="info-sum">
+								<p class="title">최근월선물</p>
+								<p class="pt1">311.05</p>
+							</div>
+							<div class="info-sum-trans">
+								<span class="down"></span>
+								<p class="pt2">4.85</p>
+								<p class="pt-percent">-1.54%</p>
+							</div>
+						</div>
+					</div>
+					<div class="tab-btn-container">
+						<span class="tab-btn on">
+							<a href="#">거래량순</a>
+						</span>
+						<span class="tab-btn">
+							<a href="#">상승률순</a>
+						</span>
+						<span class="tab-btn">
+							<a href="#">하락률순</a>
+						</span>
+					</div>
+				</div>
+				<!-- end of tab-mnu -->
+
+				<div class="switch-btn">
+					<a href="#" class="call">Call</a>
+					<a href="#" class="put on">Put</a>
+				</div>
+
+				<div class="now">
+					<a href="#" class="refresh-btn"></a>
+					<p>
+						<span class="now-time">
+							2020.09.06 03:17
+						</span>
+						기준
+					</p>
+					<a href="#" class="notice-btn"></a>
+					<div class="popup-bg">
+						<div class="popup">
+							<p>장전 또는 당일 거래가 없을 경우에는<br/>정보가 표시되지 않습니다.</p>
+							<a href="#">확인</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- row * 40 -->
+				<div class="table-container">
+					<table>
+						<caption>KOSPI200-거래량순</caption>
+						<!-- col은 열 개수만큼 -->
+						<colgroup>
+							<col style="width:12%;">
+							<col style="width:12%;">
+							<col style="width:12%;">
+							<col style="width:12%;">
+							<col style="width:12%;">
+							<col style="width:15%;">
+						</colgroup>
+
+						<thead>
+							<tr>
+								<th>종목코드</th>
+								<th>행사가</th>
+								<th>현재가</th>
+								<th>전일대비</th>
+								<th>등락률</th>
+								<th>거래량</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>57F443</td>
+								<td>305.00</td>
+								<td>210</td>
+								<td><span></span> 105</td>
+								<td>100.00%</td>
+								<td rowspan="2">137,727,010</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="graph-1">
+										<span class="graph-bar">
+											<span class="graph-status">137,727,010</span>
+										</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>57F445</td>
+								<td>300.00</td>
+								<td>130</td>
+								<td><span></span>70</td>
+								<td>116.67%</td>
+								<td>87,355,650</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="graph-2">
+										<span class="graph-bar">
+											<span class="graph-status">87,355,650</span>
+										</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>57F178</td>
+								<td>295.00</td>
+								<td>80</td>
+								<td><span></span>45</td>
+								<td>128.57%</td>
+								<td>51,750,370</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="graph-3">
+										<span class="graph-bar">
+											<span class="graph-status">87,355,650</span>
+										</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>57F444</td>
+								<td>302.50</td>
+								<td>165</td>
+								<td><span></span>85</td>
+								<td>-106.25%</td>
+								<td>33,231,070</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="graph-4">
+										<span class="graph-bar">
+											<span class="graph-status">87,355,650</span>
+										</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>57FF14</td>
+								<td>307.50</td>
+								<td>275</td>
+								<td><span></span>120</td>
+								<td>77.42%</td>
+								<td>28,044,650</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="graph-5">
+										<span class="graph-bar">
+											<span class="graph-status">87,355,650</span>
+										</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>57F180</td>
+								<td>290.00</td>
+								<td>55</td>
+								<td><span></span>30</td>
+								<td>120.00%</td>
+								<td>23,071,560</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="graph-6">
+										<span class="graph-bar">
+											<span class="graph-status">87,355,650</span>
+										</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>57ER89</td>
+								<td>280.00</td>
+								<td>25</td>
+								<td><span></span>10</td>
+								<td>66.67%</td>
+								<td>14,138,410</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="graph-7">
+										<span class="graph-bar">
+											<span class="graph-status">87,355,650</span>
+										</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>57FF13</td>
+								<td>310.00</td>
+								<td>360</td>
+								<td><span></span>135</td>
+								<td>60.00%</td>
+								<td>13,636,840</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="graph-8">
+										<span class="graph-bar">
+											<span class="graph-status">87,355,650</span>
+										</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>57F446</td>
+								<td>297.50</td>
+								<td>105</td>
+								<td><span></span>60</td>
+								<td>133.33%</td>
+								<td>11,038,740</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="graph-9">
+										<span class="graph-bar">
+											<span class="graph-status">87,355,650</span>
+										</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>57ET96</td>
+								<td>285.00</td>
+								<td>40</td>
+								<td><span></span>25</td>
+								<td>166.67%</td>
+								<td>9,685,830</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="graph-10">
+										<span class="graph-bar">
+											<span class="graph-status">87,355,650</span>
+										</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>57F179</td>
+								<td>292.50</td>
+								<td>70</td>
+								<td><span></span>40</td>
+								<td>133.33%</td>
+								<td>7,229,610</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="graph-11">
+										<span class="graph-bar">
+											<span class="graph-status">87,355,650</span>
+										</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>57F181</td>
+								<td>287.50</td>
+								<td>45</td>
+								<td><span></span>25</td>
+								<td>125.00%</td>
+								<td>4,473,940</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="graph-12">
+										<span class="graph-bar">
+											<span class="graph-status">87,355,650</span>
+										</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>57ET97</td>
+								<td>282.50</td>
+								<td>30</td>
+								<td><span></span>15</td>
+								<td>100.00%</td>
+								<td>2,670,760</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="graph-13">
+										<span class="graph-bar">
+											<span class="graph-status">87,355,650</span>
+										</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>57ER93</td>
+								<td>270.00</td>
+								<td>15</td>
+								<td><span></span>10</td>
+								<td>200.00%</td>
+								<td>1,826,210</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="graph-14">
+										<span class="graph-bar">
+											<span class="graph-status">87,355,650</span>
+										</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>57ER91</td>
+								<td>275.00</td>
+								<td>20</td>
+								<td><span></span>10</td>
+								<td>100.00%</td>
+								<td>1,677,350</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="graph-15">
+										<span class="graph-bar">
+											<span class="graph-status">87,355,650</span>
+										</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>57ER90</td>
+								<td>277.50</td>
+								<td>25</td>
+								<td><span></span>15</td>
+								<td>150.00%</td>
+								<td>1,589,570</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="graph-16">
+										<span class="graph-bar">
+											<span class="graph-status">87,355,650</span>
+										</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>57ER97</td>
+								<td>260.00</td>
+								<td>5</td>
+								<td><span></span>0</td>
+								<td>0.00%</td>
+								<td>1,296,070</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="graph-17">
+										<span class="graph-bar">
+											<span class="graph-status">87,355,650</span>
+										</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>57ER95</td>
+								<td>265.00</td>
+								<td>10</td>
+								<td><span></span>5</td>
+								<td>100.00%</td>
+								<td>1,204,020</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="graph-18">
+										<span class="graph-bar">
+											<span class="graph-status">87,355,650</span>
+										</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>57ER96</td>
+								<td>262.50</td>
+								<td>5</td>
+								<td><span></span>0</td>
+								<td>0.00%</td>
+								<td>1,033,250</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="graph-19">
+										<span class="graph-bar">
+											<span class="graph-status">87,355,650</span>
+										</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>57ER94</td>
+								<td>267.50</td>
+								<td>15</td>
+								<td><span></span>10</td>
+								<td>200.00%</td>
+								<td>637,010</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="graph-20">
+										<span class="graph-bar">
+											<span class="graph-status">87,355,650</span>
+										</span>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<!-- end of table container -->
+				<div class="more-view">
+					<div class="more-container">
+						<p>더보기</p>
+						<span class="more-plus"></span>
+					</div>
+
+				</div>
+			</div>
+			<!-- end of container -->
+		</section>
+
+		<footer>
+			<div class="footer-container">
+				<span class="footer-logo">truefriend 한국투자증권</span>
+				<div class="footer-text-container">
+					<a href="#">개인정보처리방침</a>
+					<a href="#">이용약관 및 고객유의사항</a>
+					<a href="#">고객센터 1544-5000</a>
+					<p>COPYRIGHT 2020 KOREA INVESTMENT & SECURITIES CO.LTD.<br />ALL RIGHTS RESERVED.</p>
+				</div>
+				<form action="#">
+					<span></span>
+					<fieldset>
+						<label for="site">패밀리사이트</label>
+						<input id="site" type="text" value="Family Site" readonly>
+						<ul class="site-list">
+							<li class="on"><a href="#">Family Site</a></li>
+							<li><a href="#">한국투자증권</a></li>
+							<li><a href="#">한국투자금융지주</a></li>
+							<li><a href="#">한국투자신탁운용</a></li>
+							<li><a href="#">한국투자파트너스</a></li>
+							<li><a href="#">한국투자저축은행</a></li>
+							<li><a href="#">한국투자밸류자산운용</a></li>
+							<li><a href="#">한국투자프라이빗에쿼티</a></li>
+							<li><a href="#">BanKIS</a></li>
+							<li><a href="#">ETN</a></li>
+							<li><a href="#">퇴직연금</a></li>
+						</ul>
+					</fieldset>
+				</form>
+			</div>
+			<a href="#" class="topscroll-btn"></a>
+		</footer>
+	</div>
+</body>
+
+</html>
